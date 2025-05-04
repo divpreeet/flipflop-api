@@ -1,5 +1,6 @@
 from flask import Flask, request, send_file, jsonify
 import io
+import os
 from picflip.processing import remove_background_bytes, convert_image_bytes
 
 app = Flask(__name__)
@@ -56,4 +57,4 @@ def ping():
     return "pong", 200
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=int(os.enivron.get("PORT", 5000)), debug=True)
