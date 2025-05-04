@@ -1,0 +1,8 @@
+setup.py
+flipflop_api.egg-info/PKG-INFO
+flipflop_api.egg-info/SOURCES.txt
+flipflop_api.egg-info/dependency_links.txt
+flipflop_api.egg-info/requires.txt
+flipflop_api.egg-info/top_level.txt
+picflip/__init__.py
+picflip/processing.py
